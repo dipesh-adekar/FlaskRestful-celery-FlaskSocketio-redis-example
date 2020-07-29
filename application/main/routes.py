@@ -5,7 +5,7 @@ from . import application_model
 
 from jobs.task import reverse
 
-api = Api(attendance_model)
+api = Api(application_model)
 
 
 class HelloWorld(Resource):
