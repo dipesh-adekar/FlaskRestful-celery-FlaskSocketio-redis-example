@@ -1,7 +1,7 @@
 from flask_socketio import emit, join_room, leave_room
 from .. import socketio
 from flask import request, session
-from jobs.task import reverse, getstatus
+from jobs.task import reverse
 
 
 @socketio.on('text', namespace='/chat')
