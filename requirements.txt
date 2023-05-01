@@ -1,6 +1,6 @@
 celery==5.2.2
 eventlet==0.31.0
-Flask==1.1.0
+Flask==2.3.2
 Flask-Cors==3.0.9
 Flask-RESTful==0.3.7
 Flask-SocketIO==4.2.1
